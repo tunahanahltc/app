@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+android:background="@drawable/backround2"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:background="@drawable/backround2"
+
+        android:layout_height="50dp">
+
+
+        <TextView
+            android:id="@+id/custom_dialog_activation_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/custom_dialog_activation_close_image"
+            android:text="Kullanici Onayi"
+            android:textAlignment="center"
+
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_width="40dp"
+            android:scaleType="fitXY"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/close_image"
+            android:id="@+id/custom_dialog_activation_close_image"
+            android:layout_alignParentRight="true"
+            android:layout_height="40dp"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Onay kodu:"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textColorHint="#6B6867"
+        android:id="@+id/custom_dialog_activation_editText"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:backgroundTint="#070707"
+        android:layout_height="50dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:layout_width="150dp"
+            android:text="Onayla"
+            android:background="@drawable/button_background"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/custom_dialog_activation_confirm_button"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+</LinearLayout>

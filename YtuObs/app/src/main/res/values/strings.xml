@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">YtuObs</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="password">Şifre</string>
+</resources>

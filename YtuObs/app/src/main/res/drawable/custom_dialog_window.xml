@@ -1,0 +1,6 @@
+<!-- oval_button_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"><!-- Bu değeri düzenleyerek ovalin şeklini ayarlayabilirsiniz -->
+    <solid android:color="#00FFFFFF" /> <!-- 00 değeri, tamamen saydamı temsil eder -->
+<size android:height="100dp"/>
+</shape>
